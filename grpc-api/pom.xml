@@ -16,7 +16,7 @@
         <maven.compiler.target>8</maven.compiler.target>
         <os-maven-plugin.version>1.6.2</os-maven-plugin.version>
         <protobuf-maven-plugin.version>0.6.1</protobuf-maven-plugin.version>
-        <io.grpc.version>1.38.0</io.grpc.version>
+        <io.grpc.version>1.40.1</io.grpc.version>
 
     </properties>
 
@@ -50,8 +50,8 @@
                 <version>${protobuf-maven-plugin.version}</version>
                 <configuration>
                     <pluginId>grpc-java</pluginId>
-                    <protocArtifact>com.google.protobuf:protoc:3.9.1:exe:${os.detected.classifier}</protocArtifact>
-                    <pluginArtifact>io.grpc:protoc-gen-grpc-java:${io.grpc.version}:exe:${os.detected.classifier}</pluginArtifact>
+<!--                    <protocArtifact>com.google.protobuf:protoc:3.9.1:exe:${os.detected.classifier}</protocArtifact>-->
+<!--                    <pluginArtifact>io.grpc:protoc-gen-grpc-java:${io.grpc.version}:exe:${os.detected.classifier}</pluginArtifact>-->
                 </configuration>
                 <executions>
                     <execution>
